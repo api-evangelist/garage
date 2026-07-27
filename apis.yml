@@ -1,8 +1,24 @@
 aid: garage
 name: Garage
-description: 'Garage is a company surfaced as a portfolio company of initialized-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Garage (Garage Technologies, Inc.) is America''s online marketplace for buying and selling
+  specialized vehicles and equipment — fire trucks, ambulances, and heavy-duty municipal apparatus. The
+  platform helps fire departments, EMS services, municipalities, and dealers list surplus equipment and
+  buy what they need in seconds, bundling AI-powered appraisals, virtual inspections, live auctions,
+  payments, freight, financing, and warranties into one consumer marketplace. Garage raised $13.5M and
+  is backed by Initialized Capital. It operates a public consumer web marketplace (shopgarage.com /
+  withgarage.com); no public developer API program was found during enrichment.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.shopgarage.com/og-homepage.jpg
 url: https://raw.githubusercontent.com/api-evangelist/garage/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Marketplace
+- Emergency Vehicles
+- Fire Trucks
+- Ambulances
+- Municipal Equipment
+- Government Surplus
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/garage-domain-security.yml
+- type: LLMsTxt
+  url: llms/garage-llms.txt
 - type: Website
   url: https://www.shopgarage.com/
+- type: Blog
+  url: https://www.shopgarage.com/blog
+- type: HelpCenter
+  url: https://help.withgarage.com/
+- type: Support
+  url: https://www.shopgarage.com/contact
+- type: Login
+  url: https://www.shopgarage.com/login
+- type: TermsOfService
+  url: https://www.shopgarage.com/policies/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.shopgarage.com/policies/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
