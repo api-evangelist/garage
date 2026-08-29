@@ -7,6 +7,17 @@ description: 'Garage (Garage Technologies, Inc.) is America''s online marketplac
   payments, freight, financing, and warranties into one consumer marketplace. Garage raised $13.5M and
   is backed by Initialized Capital. It operates a public consumer web marketplace (shopgarage.com /
   withgarage.com); no public developer API program was found during enrichment.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
