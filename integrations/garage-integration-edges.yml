@@ -11,8 +11,8 @@ edges:
   evidence: https://garagehq.deuxfleurs.fr/documentation/reference-manual/s3-compatibility/
   evidence_kind: own-docs
   evidence_file: https://github.com/api-evangelist/garage/blob/main/evidence/compatibility/garage-aws-s3-1.md
-  quote: <!-- fetched 2026-10-13 from https://garagehq.deuxfleurs.fr/documentation/reference-manual/s3-compatibility/
-    by sweep-shape-compat.py; text extracted from the provider's own page -->
+  quote: Feel free to open a PR to suggest fixes this table. Minio is missing because they do not provide a public
+    S3 compatibility list.
   supported_operations:
   - AbortMultipartUpload
   - CompleteMultipartUpload
