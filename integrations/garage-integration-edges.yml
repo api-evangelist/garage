@@ -1,0 +1,87 @@
+edges:
+- partner_name: Amazon Web Services
+  partner: amazon-web-services
+  partner_match: shape-anchor
+  channel: provider-built
+  relationship: compatible
+  direction: provider-built
+  shape: aws-s3
+  type: docs
+  degree: declared-subset
+  evidence: https://garagehq.deuxfleurs.fr/documentation/reference-manual/s3-compatibility/
+  evidence_kind: own-docs
+  evidence_file: https://github.com/api-evangelist/garage/blob/main/evidence/compatibility/garage-aws-s3-1.md
+  quote: <!-- fetched 2026-10-13 from https://garagehq.deuxfleurs.fr/documentation/reference-manual/s3-compatibility/
+    by sweep-shape-compat.py; text extracted from the provider's own page -->
+  supported_operations:
+  - AbortMultipartUpload
+  - CompleteMultipartUpload
+  - CopyObject
+  - CreateBucket
+  - CreateMultipartUpload
+  - DeleteBucket
+  - DeleteBucketCors
+  - DeleteBucketLifecycle
+  - DeleteBucketWebsite
+  - DeleteObject
+  - DeleteObjects
+  - GetBucketCors
+  - GetBucketLifecycleConfiguration
+  - GetBucketLocation
+  - GetBucketWebsite
+  - GetObject
+  - HeadBucket
+  - HeadObject
+  - ListBuckets
+  - ListObjects
+  - ListObjectsV2
+  - ListParts
+  - PutBucketCors
+  - PutBucketLifecycleConfiguration
+  - PutBucketWebsite
+  - PutObject
+  - UploadPart
+  - UploadPartCopy
+  unsupported_operations:
+  - DeleteBucketEncryption
+  - DeleteBucketPolicy
+  - DeleteBucketReplication
+  - DeleteBucketTagging
+  - DeleteObjectTagging
+  - DeletePublicAccessBlock
+  - GetBucketAcl
+  - GetBucketEncryption
+  - GetBucketLogging
+  - GetBucketNotificationConfiguration
+  - GetBucketPolicy
+  - GetBucketReplication
+  - GetBucketTagging
+  - GetBucketVersioning
+  - GetObjectAcl
+  - GetObjectLegalHold
+  - GetObjectLockConfiguration
+  - GetObjectRetention
+  - GetObjectTagging
+  - GetPublicAccessBlock
+  - ListObjectVersions
+  - PutBucketAcl
+  - PutBucketEncryption
+  - PutBucketLogging
+  - PutBucketNotificationConfiguration
+  - PutBucketPolicy
+  - PutBucketReplication
+  - PutBucketTagging
+  - PutBucketVersioning
+  - PutObjectAcl
+  - PutObjectLegalHold
+  - PutObjectLockConfiguration
+  - PutObjectRetention
+  - PutObjectTagging
+  - PutPublicAccessBlock
+  - RestoreObject
+  - SelectObjectContent
+  supported_share: 0.418
+  detected_by: sweep-shape-compat.py
+  first_seen: '2026-10-13'
+generated: '2026-10-13'
+method: searched

@@ -1,0 +1,12 @@
+fetched: '2026-10-13'
+method: fetched
+source: https://garagehq.deuxfleurs.fr/documentation/reference-manual/s3-compatibility/
+page: https://garagehq.deuxfleurs.fr/documentation/reference-manual/s3-compatibility/
+file: garage-aws-s3-1.md
+bytes: 13653
+sha256: 259e44ef5488bf0f26180ef83ef19d7393eef7cd9e72748b56aa071deacc9c02
+anchor: amazon-web-services
+shape: aws-s3
+classification: declares-compatibility
+quote: S3 Compatibility status | Garage HQ
+note: text extracted from the provider's own page (tags stripped), saved for evidence
